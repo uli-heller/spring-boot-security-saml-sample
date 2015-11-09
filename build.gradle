@@ -15,8 +15,8 @@ version = '1.1.0.RELEASE'
 
 description = """Spring Boot and Spring Security SAML integration sample"""
 
-sourceCompatibility = 1.5
-targetCompatibility = 1.5
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 
 
