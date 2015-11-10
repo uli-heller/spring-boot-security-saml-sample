@@ -39,3 +39,8 @@ dependencies {
 configurations {
     all*.exclude module: 'logback-classic'
 }
+
+clean.doLast {
+  ant.delete(dir: 'bin');
+  ant.delete(dir: 'build');
+}
